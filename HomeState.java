@@ -12,8 +12,9 @@ private GameConsole gameConsole = new GameConsole();
 	@Override
 	public void pressHomeButton() {
 		// TODO Auto-generated method stub
-		System.out.println("You are already on the home screen.");
 		gameConsole.setState(gameConsole.getHomeState());
+		System.out.println("You are already on the home screen.");
+		
 	}
 
 	@Override
@@ -26,8 +27,9 @@ private GameConsole gameConsole = new GameConsole();
 	@Override
 	public void pressXBoxButton() {
 		// TODO Auto-generated method stub
-		System.out.println("Starting XBox...");
 		gameConsole.setState(gameConsole.getXBoxState());
+		System.out.println("Starting XBox...");
+		
 	}
 
 	@Override
