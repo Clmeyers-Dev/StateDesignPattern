@@ -1,4 +1,7 @@
-
+/**
+ * @author chris
+ *
+ */
 public interface State  {
 public void pressHomeButton();
 public void pressNintendoButton();
