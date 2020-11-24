@@ -1,4 +1,7 @@
-
+/**
+ * @author chris
+ *
+ */
 public class GameConsole  {
 private State HomeState;
 private State NintendoState;
