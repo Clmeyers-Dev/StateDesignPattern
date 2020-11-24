@@ -1,4 +1,7 @@
-
+/**
+ * @author chris
+ *
+ */
 public class HomeState implements State {
 private GameConsole gameConsole = new GameConsole();
 
